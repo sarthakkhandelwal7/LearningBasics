@@ -1,4 +1,4 @@
-from stacks import  Stacks
+from stacks import  stacks as s
 class QuesBystacks:
     def __init__(self,size,stack1,stack2):
         self.size = size
@@ -11,8 +11,8 @@ class QuesBystacks:
             stack1.pop(True)
             stack2.push(stack1.cell_data)
 size = int(input('Enter size of que'))
-stack1 = Stacks(size)
-stack2 = Stacks(size)
+stack1 = s.Stacks(size)
+stack2 = s.Stacks(size)
 que = QuesBystacks(size,stack1,stack2)
 que.creat_que()
 print(stack2)
