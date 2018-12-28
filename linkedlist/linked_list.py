@@ -18,13 +18,6 @@ class LinkedList:
                 previous.pointer = curr
             else:
                 self.last_node = curr
-    def __str__(self):
-        st = 'Your data in link list'
-        curr = self.head_node
-        while curr !='Null':
-            st+=f'\n{curr.data}'
-            curr = curr.pointer 
-        return st
     def insert_node(self,n,data,position = 0):
         if n == 1:
             '''
@@ -75,8 +68,7 @@ class LinkedList:
                 c = b.pointer
                 b.pointer = a
                 previous.pointer = b
-                a.pointer = c
-                
+                a.pointer = c            
     def find_length(self):
         self.length=0
         curr_node = self.head_node.pointer
@@ -85,6 +77,13 @@ class LinkedList:
             curr_node = curr_node.pointer
         self.length+=1
         return self.length
+    def __str__(self):
+        st = 'Your data in link list'
+        curr = self.head_node
+        while curr !='Null':
+            st+=f'\n{curr.data}'
+            curr = curr.pointer 
+        return st
 n = int(input('Enter length of Linked list:'))
 ll = LinkedList(n)
 ll.create_linklist()
