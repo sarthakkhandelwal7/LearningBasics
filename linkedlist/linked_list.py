@@ -5,10 +5,11 @@ class Node:
 class LinkedList:
     def __init__(self,n):
         self.n = n
-        self.head_node = Node(None,'Null')
+        self.head_node = 'Null'
         self.last_node = None
-        self.length = None
+        self.length = 0
     def create_linklist(self):
+        self.head_node = Node(None,'Null')
         curr = self.head_node
         for i in range(1,self.n+1):
             curr.data = input('Enter data:')
@@ -18,19 +19,21 @@ class LinkedList:
                 previous.pointer = curr
             else:
                 self.last_node = curr
-    def insert_node(self,n,data,position = 0):
-        if n == 1:
+    def insert_node(self,position,data):
+        if position.lower() == 'h':
             '''
                 Insert at head node
             '''
             new_node = Node(data,self.head_node)
             self.head_node = new_node
-        elif n == 2:
+        elif position.lower() == 'e':
             #Insert at last node
+            
             new_node = Node(data,'Null')
             self.last_node.pointer = new_node
         else:
             #Insert node in between
+            
             curr_next = None
             curr = self.head_node
             for _ in range(position-2):
@@ -38,6 +41,7 @@ class LinkedList:
                 curr_next = curr.pointer
             new_node = Node(data,curr_next)
             curr.pointer = new_node
+        self.length+=1
     def delete_node(self,position):
         i=1
         previous = self.head_node
@@ -51,6 +55,7 @@ class LinkedList:
         previous.pointer = next_node
         if position == 1:
             self.head_node = next_node
+        self.length-=1
     def reverse(self):
         a = None
         b = None
@@ -78,12 +83,9 @@ class LinkedList:
         self.length+=1
         return self.length
     def __str__(self):
-        st = 'Your data in link list'
+        st = 'Your data in link list\n'
         curr = self.head_node
         while curr !='Null':
-            st+=f'\n{curr.data}'
-            curr = curr.pointer 
-        return st
-n = int(input('Enter length of Linked list:'))
-ll = LinkedList(n)
-ll.create_linklist()
+            st+=f'{curr.data}-->'
+            curr = curr.pointer
+        return st[:len(st)-3]
