@@ -67,4 +67,12 @@
 4 [Inorder traversal using recursion](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/trees/inorder_traversal.ipynb)
 
 5 [Preorder traversal using recusion](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/trees/preorder_traversal.ipynb)
+## Miscellaneous
+1 [Flip bit to win](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/miscellaneous/flip_bit_to_win.ipynb)
+
+2 [Insert m into n](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/miscellaneous/insert_m_into_n.ipynb)
+
+3 [Sorted merge](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/miscellaneous/sorted_merge.ipynb)
+## Searching
+1 [Searching in a rotated sorted array](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/searching/search_in_rotated_sorted_array.ipynb)
 
