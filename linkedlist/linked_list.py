@@ -6,7 +6,10 @@ class Node:
 class LinkedList:
     def __init__(self,n):
         """
-        n: size of linkedlist
+            n        : size of linkedlist
+            head_node: holds head node
+            last_node: holds last node
+            length   : current length of linked list
         """
         self.n = n
         self.head_node = 'Null'
