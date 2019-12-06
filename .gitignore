@@ -3,3 +3,4 @@ __pycache__/
 checkpoint*
 */.ipynb_checkpoints/*
 .ipynb_checkpoints/*
+.idea/*
