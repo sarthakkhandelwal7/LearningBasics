@@ -6,10 +6,7 @@ class Node:
 class LinkedList:
     def __init__(self,n):
         """
-            n        : size of linkedlist
-            head_node: holds head node
-            last_node: holds last node
-            length   : current length of linked list
+        n: size of linkedlist
         """
         self.n = n
         self.head_node = 'Null'
@@ -84,18 +81,24 @@ class LinkedList:
         self.length-=1
     
     def reverse(self):
+        a = None
+        b = None
+        l = self.find_length()
         previous = None
-        curr = self.head_node
-        next = curr.next
-        self.last_node = curr
-        while next != 'Null':
-            curr.next = previous
-            previous = curr
-            curr = next
-            next = next.next
-        curr.next = previous
-        self.head_node = curr
-        self.last_node.next = 'Null'
+        for i in range(l-1):
+            a = self.head_node
+            b = a.next
+            self.head_node = b
+            a.next = b.next
+            b.next = a
+            for _ in range(i+1,l-1):
+                previous = b
+                b = a.next
+                c = b.next
+                b.next = a
+                previous.next = b
+                a.next = c            
+    
     def find_length(self):
         self.length=0
         curr_node = self.head_node.next
