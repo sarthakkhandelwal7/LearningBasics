@@ -1,6 +1,6 @@
 class Solution:
     @staticmethod
-    def flood_fill(image: list[list[]], sr: int, sc: int, new_color: int) -> list[list[]]:
+    def flood_fill(image: list[list[int]], sr: int, sc: int, new_color: int) -> list[list[int]]:
         def utility(image, r, c, old, new):
             if len(image) > r >= 0 and len(image[0]) > c >= 0:
                 if image[r][c] != old or image[r][c] == new:
@@ -21,4 +21,4 @@ class Solution:
 
 
 if __name__ == '__main__':
-    print(Solution().floodFill([[1, 1, 1], [1, 1, 0], [1, 0, 1]], 1, 1, 2))
+    print(Solution().flood_fill([[1, 1, 1], [1, 1, 0], [1, 0, 1]], 1, 1, 2))
