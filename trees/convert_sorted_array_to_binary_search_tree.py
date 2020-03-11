@@ -16,8 +16,8 @@ class Solution:
             node.left = helper(from_index, mid, nums)
             node.right = helper(mid+1, to_index, nums)
             return node
-        return helper(0,len(nums), nums)
+        return helper(0, len(nums), nums)
 
 
 if __name__ == '__main__':
-    Solution().sortedArrayToBST([1,2,3,4,5,6,7,8,9,10])
+    Solution().sortedArrayToBST([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
