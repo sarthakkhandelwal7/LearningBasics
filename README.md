@@ -3,7 +3,9 @@
 1 [Sieve of Eratosthenes](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/algorithms/sieve_of_eratosthenes.ipynb)
 ## Arrays
 1 [URLify](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/arrays/URLify.ipynb)
+
 2 [Fid unique(bit manupulation)](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/arrays/find_unique(bit_manupulation).py)
+
 3 [find unique(math)](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/arrays/find_unique(math).py)
 ## Graphs
 1 [Adjacency lists](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/graphs/adjacency_list/adjacency_list.ipynb)
