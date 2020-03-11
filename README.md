@@ -165,3 +165,21 @@
 6 [Convert sorted array to BST](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/trees/convert_sorted_array_to_binary_search_tree.py)
 
 7 [List of depth](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/trees/list_of_depth.py)
+
+8 [Balanced binary tree](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/trees/balanced_binary_tree.py)
+
+9 [First common ancestor](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/trees/first_common_ancestor.py)
+
+10 [Inorder successor(parent pointer)](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/trees/inorder_successor(parent_pointer).py)
+
+11 [Inorder successor(search from root)](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/trees/inorder_successor(search_from_root).py)
+
+12 [Level order traversal](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/trees/level_order_traversal.py)
+
+13 [Preorder traversal(iteration)](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/trees/preorder_traersal(iteration).py)
+
+14 [Randome node](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/trees/randome_node.py)
+
+15 [Subtree of another tree](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/trees/subtree_of_another_tree.py)
+
+16 [valid balanced BST](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/trees/valid_balanced_BST.py)
