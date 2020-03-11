@@ -6,7 +6,31 @@
 
 2 [Fid unique(bit manupulation)](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/arrays/find_unique(bit_manupulation).py)
 
-3 [find unique(math)](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/arrays/find_unique(math).py)
+3 [Find unique(math)](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/arrays/find_unique(math).py)
+## Dynamic Programming
+1 [Flood fill](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/dynamic_programming/flood_fill.py)
+
+2 [Generate parentheses](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/dynamic_programming/generate_parentheses.py)
+
+3 [Magic index](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/dynamic_programming/magic_index.py)
+
+4 [N queens](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/dynamic_programming/n_queens.py)
+
+5 [Permutation(duplicates)](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/dynamic_programming/permutation(duplicates).py)
+
+6 [Permutation](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/dynamic_programming/permutation.py)
+
+7 [Power set(bfs)](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/dynamic_programming/power_set(bfs).py)
+
+8 [Power set(dfs)](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/dynamic_programming/power_set(dfs).py)
+
+9 [Recursive multiple](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/dynamic_programming/recursive_multiple.py)
+
+10 [Robot in a grid(recursive)](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/dynamic_programming/robot_in_a_grid(recursion).py)
+
+11 [Robot in a grid](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/dynamic_programming/robot_in_a_grid.py)
+
+12 [Tripple set](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/dynamic_programming/tripple_step.py)
 ## Graphs
 1 [Adjacency lists](https://github.com/sarthakkhandelwal7/LearningBasics/blob/master/graphs/adjacency_list/adjacency_list.ipynb)
 
